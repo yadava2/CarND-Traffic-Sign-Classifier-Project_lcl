@@ -1,0 +1,98 @@
+Meets Specifications
+Dear Udacian,
+
+Congratulations!!!:clap:
+
+You achieved another milestone in this course.
+
+Keep it up!!! :+1:
+Reviewer
+
+Extra Important Material:
+
+http://www.fast.ai/
+http://yerevann.com/a-guide-to-deep-learni
+ng/
+https://medium.com/@vivek.yadav/dealing-with-unbalanced-data-generating-additional-data-by-jittering-the-original-image-7497fe2119c3#.obfuq3zde
+https://medium.com/@vivek.yadav/improved-performance-of-deep-learning-neural-network-models-on-traffic-sign-classification-using-6355346da2dc#.tq0uk9oxy
+
+Batch size discussion ::
+http://stats.stackexchange.com/questions/140811/how-large-should-the-batch-size-be-for-stochastic-gradient-descent
+
+Adam optimizer discussion::
+http://sebastianruder.com/optimizing-gradient-descent/index.html#adam'
+
+Dropouts ::
+https://pgaleone.eu/deep-learning/regularization/2017/01/10/anaysis-of-dropout/
+
+Files Submitted
+The project submission includes all required files.
+
+Ipython notebook with code
+HTML output of the code
+A writeup report (either pdf or markdown)
+Dataset Exploration
+The submission includes a basic summary of the data set.
+
+Good job performing a basic data summary to come up with the correct figures.:100:
+
+The submission includes an exploratory visualization on the dataset.
+
+Excellent !!!!
+
+You've done a good job with the visualizations :100:
+The Multiple images and the traffic signs bar chart plot has been displayed.:white_check_mark:
+Suggestion
+
+See these links for various ways of visualizing data;
+Basic Data Plotting With Matplotlib
+pylab_examples example code: histogram_demo_extended.py
+
+Design and Test a Model Architecture
+The submission describes the preprocessing techniques used and why these techniques were chosen.
+
+Well done for sharpening and using normalization. ::white_check_mark:
+
+SUGESSTIONS
+
+For further improvements, here are some preprocessing techniques that have proven to work on this dataset:
+
+Convertion to grayscale can also help.
+Can try random shuffling.
+Try Augmenting your training dataset with rotation, distortion, scaling ,translation and cropping images with varied contrast/brightness or normalized histograms) can improve the robustness of the model and give better results
+If images are not very bright, can do pre-processing like histogram equalization help in enhancing.
+The submission provides details of the characteristics and qualities of the architecture, including the type of model used, the number of layers, and the size of each layer. Visualizations emphasizing particular qualities of the architecture are encouraged.
+
+Well done here!!!!
+
+The characteristics and qualities of the final architecture like convolution layers used, number of layers, number of filters, relu,pooling, flattening and the number of fully connected layers have been adequately justified.:white_check_mark:
+The submission describes how the model was trained by discussing what optimizer was used, batch size, number of epochs and values for hyperparameters.
+
+Well done here!!!! :+1:
+
+You have properly trained and evaluated your model and mentioned an Adam optimizer used.Other hyperparmeters like learning rate(0.001), epochs(20), batch size(128), mu(0) and sigma(0.1) are discussed here.:white_check_mark:
+The submission describes the approach to finding a solution. Accuracy on the validation set is 0.93 or greater.
+
+Well done!! you discussed your approach in detail for deriving and designing a model architecture fit for solving the problem given and coming up with good accuracy of: .:white_check_mark:
+       Validation set accuracy of 96.60%
+       Test set accuracy of 93.95%
+Test a Model on New Images
+The submission includes five new German Traffic signs found on the web, and the images are visualized. Discussion is made as to particular qualities of the images or traffic signs in the images that are of interest, such as whether they would be difficult for the model to classify.
+
+Excellent job here!!!
+All the candidate images chosen are appropriate.:white_check_mark:
+Well done for identifying the characteristics of the new images that might make it difficult for the model to classify.:white_check_mark:
+Keep it up!!!
+:+1:
+
+The submission documents the performance of the model when tested on the captured images. The performance on the new images is compared to the accuracy results of the test set.
+
+Well done!!
+
+A fair comparison has been made between the prediction accuracy of the model on the captured images and those on the testing set.:white_check_mark:
+Acccuracy has been discussed here.
+     "The model was able to correctly guess 4 of the 6 traffic signs, which gives an accuracy of 66.66 %."
+The top five softmax probabilities of the predictions on the captured images are outputted. The submission discusses how certain or uncertain the model is of its predictions.
+
+Good work for printing and diaplaying the softmax probabilities.:white_check_mark:
+The certainty of the model's predictions have been discussed well.:white_check_mark:
